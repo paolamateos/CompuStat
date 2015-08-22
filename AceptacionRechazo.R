@@ -18,6 +18,8 @@ plot(h, xlim=c(0.1,4), ylim=c(0,2))
 M <- 2
 
 
+
+
 # ACEPTACIÓN RECHAZO
 
 genera.una <- function(...){
@@ -41,3 +43,4 @@ genera.una <- function(...){
 genera.muchas <- function(n){
   sapply(1:n, FUN=genera.una)
 }
+#genera.muchas(49)
