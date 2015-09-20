@@ -25,9 +25,9 @@ shinyUI(fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
+      h1("Box Muller Method"),
       tabsetPanel(
-        tabPanel("X",plotOutput("distPlot")),
-        tabPanel("Y",plotOutput("yplot"))
+        tabPanel("X",plotOutput("distPlot"))
       #plotOutput("distPlot")
     ))
   )

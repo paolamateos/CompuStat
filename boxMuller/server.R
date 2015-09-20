@@ -6,8 +6,6 @@
 #método polar para transformar las variables
 library(shiny)
 
-#u1 <- runif(1)
-#u2 <- runif(1)
 
 x <- function(...) {
   u1 <- runif(1)
@@ -30,7 +28,8 @@ shinyServer(function(input, output) {
     xg <- sapply(numeric(input$X),x)
     yg <-sapply(numeric(input$Y),y)
     # draw the histogram with the specified number of bins
-    hist(yg, col = 'skyblue', border = 'white')
+    hist(xg, col = 'skyblue', border = 'white')
     
   })
+ 
 })
