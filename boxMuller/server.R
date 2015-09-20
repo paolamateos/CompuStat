@@ -13,6 +13,7 @@ x <- function(...) {
   sqrt(-2*log(u2))*cos(2*pi*u1)}
 
 y <- function(...){
+
   u3 <- runif(1)
   u4 <- runif(1)
   sqrt(-2*log(u4))*sin(2*pi*u3)
@@ -28,8 +29,10 @@ shinyServer(function(input, output) {
     xg <- sapply(numeric(input$X),x)
     yg <-sapply(numeric(input$Y),y)
     # draw the histogram with the specified number of bins
+
     hist(xg, col = 'skyblue', border = 'white')
     
   })
- 
-})
+
+    
+  })
