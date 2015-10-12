@@ -1,7 +1,7 @@
 library(shiny)
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
-  #r
+
   # Application title
   titlePanel("Box Muller"),
   

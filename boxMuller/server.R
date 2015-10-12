@@ -1,7 +1,6 @@
 #Tarea 2 Box Muller
 #Método de generación de pares de números aleatorios indep, con distribución
 #Normal estándar
-#r
 #Generamos dos v.a.i. uniformemente distribuidas en (0,1] y utilizamos el 
 #método polar para transformar las variables
 library(shiny)
