@@ -1,4 +1,4 @@
-#tarea4 -.Corrección sesgo de Bootstrap. 
+#tarea4 -.Corrección sesgo de Bootstrap
 #Ejemplo (Copper Nockel Alloy)
 install.packages(boot)
 
